@@ -1,7 +1,7 @@
 <template>
 <div>
   <h2>
-    <div> {{jokes}}</div>
+    WELCOME DAD JOKES
   </h2>
 </div>
 </template>
@@ -19,8 +19,7 @@ head(){
             }
         ]
     }
-},
-props : ["jokes"]
+}
 }
 </script>
 
