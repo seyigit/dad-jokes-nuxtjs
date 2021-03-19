@@ -3,7 +3,7 @@
     <div>
         <nuxt-link to="/jokes">Back To Jokes</nuxt-link>
         <br><br>
-        <h2 class="jokes">{{joke}}</h2>
+        <h2 class="jokes border-purple-200 border-2">{{joke}}</h2>
         <br><br>
         <hr />
         <small>Joke ID : {{$route.params.id}}</small>
@@ -49,7 +49,6 @@ export default {
 
 <style scoped>
 .jokes{
-    border: 1px solid #ddd;
     padding: 10px;
 }
 </style>

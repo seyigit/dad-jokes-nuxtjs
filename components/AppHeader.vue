@@ -1,21 +1,21 @@
 <template>
 
   <header class="header">
-                <h1 class="title">Dad Jokes</h1>
+                <h1 class="title text-purple-400">Dad Jokes</h1>
         <nav class="navigation">
-                  <ul>
+                  <ul class="">
           <li>
-              <nuxt-link to="/">Home</nuxt-link>
+              <nuxt-link class="rounded-lg bg-purple-300" to="/">Home</nuxt-link>
+          </li>
+      </ul >
+      <ul >
+          <li >
+              <nuxt-link class="rounded-lg bg-purple-300" to="/jokes">Jokes</nuxt-link>
           </li>
       </ul>
       <ul>
           <li>
-              <nuxt-link to="/jokes">Jokes</nuxt-link>
-          </li>
-      </ul>
-      <ul>
-          <li>
-              <nuxt-link to="/about">About</nuxt-link>
+              <nuxt-link class="rounded-lg bg-purple-300" to="/about">About</nuxt-link>
           </li>
       </ul>
         </nav>
@@ -41,7 +41,6 @@ export default {
 }
 .header .title{
     font-size: 3rem;
-    color: #526488;
 
 }
 .navigation{
@@ -53,7 +52,6 @@ export default {
 }
 .header nav a {
     display: inline-block;
-    background: #333;
     color : #fff;
     padding: 0.3rem 1rem;
     text-decoration: none;

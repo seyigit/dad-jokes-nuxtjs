@@ -1,6 +1,6 @@
 <template>
 <nuxt-link :to="'jokes/' + id" tag="a">
-  <div class="joke">
+  <div class="joke border-purple-200 border-2">
       <p>{{joke}}</p>
   </div>
   </nuxt-link>
@@ -16,7 +16,6 @@ export default {
 <style>
 .joke {
     padding: 1rem;
-    border: 1px solid #ccc ;
     margin: 1rem 0;
 }
 a{
